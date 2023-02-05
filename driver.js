@@ -1,14 +1,14 @@
 "use strict";
 
 // eslint-disable-next-line prefer-const
-let gameSpeed = 1;
-let baseManaPerSecond = 100;
+let gameSpeed = 7;
+let baseManaPerSecond = 700;
 
 const halfDayMs = 1000*60*60*12;
 
 let curTime = new Date();
 let gameTicksLeft = 0;
-let refund = false;
+let refund = true;
 let radarUpdateTime = 0;
 let timeCounter = 0;
 let effectiveTime = 0;
